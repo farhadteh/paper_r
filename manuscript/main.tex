@@ -1,0 +1,30 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{Generative Models for Rare Disease Biomedical Data Synthesis: A Literature Review}
+\author{
+    % Add author information here
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Rare diseases affect millions globally but suffer from extreme data scarcity, creating significant barriers to developing effective diagnostic and therapeutic approaches. This review examines how generative models—including Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), and diffusion models—address the challenge of synthesizing biomedical data for ultra-rare conditions. We analyze technical approaches, evaluate effectiveness in mitigating data scarcity and class imbalance, and examine applications across electronic health records, multi-omics profiles, and medical imaging modalities.
+\end{abstract}
+
+\input{sections/01_introduction}
+\input{sections/02_generative_models}
+\input{sections/03_scarcity_mitigation}
+\input{sections/04_modality_applications}
+\input{sections/05_limitations}
+\input{sections/06_conclusion}
+
+\bibliographystyle{IEEEtran}
+\bibliography{refs}
+
+\end{document}

@@ -1,0 +1,8 @@
+filename,title,authors,year,venue,doi,keywords,status,notes
+finetti2025data.pdf,Data augmentation and synthetic data generation in rare disease research: A scoping review,Finetti et al.,2025,Medical Sciences,10.3390/medsci13040260,scoping review; data augmentation; rare diseases,cited,Comprehensive scoping review
+alsentzer2025few.pdf,Few shot learning for phenotype-driven diagnosis of patients with rare genetic diseases,Alsentzer et al.,2025,npj Digital Medicine,,few-shot learning; rare genetic diseases; phenotype,cited,Few-shot learning approach
+mendes2025synthetic.pdf,Synthetic data generation: A privacy-preserving approach to accelerate rare disease research,Mendes; Barbar; Refaie,2025,Frontiers in Digital Health,10.3389/fdgth.2025.1563991,privacy; synthetic data; rare diseases,cited,Privacy-focused approach
+fridadar2018gan.pdf,GAN-based synthetic medical image augmentation for increased CNN performance in liver lesion classification,Frid-Adar et al.,2018,Neurocomputing,,GAN; medical imaging; liver lesion; classification,cited,Classic GAN paper for medical imaging
+choi2017generating.pdf,Generating multi-label discrete patient records using generative adversarial networks,Choi et al.,2017,MLHC,,GAN; EHR; patient records; discrete data,cited,Foundational work on GAN for EHR
+zhong2024meddiffusion.pdf,MedDiffusion: Boosting health risk prediction via diffusion-based data augmentation,Zhong et al.,2024,SIAM SDM,,diffusion models; data augmentation; health risk,cited,Recent diffusion model application
+ktena2024generative.pdf,Generative models improve fairness of medical classifiers under distribution shifts,Ktena et al.,2024,Nature Medicine,,fairness; distribution shift; generative models,cited,Fairness and robustness focus
