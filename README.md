@@ -17,6 +17,61 @@ open manuscript/main.pdf
 
 ---
 
+## 💻 Working from Another Computer
+
+This repository is hosted on GitHub at: **<https://github.com/farhadteh/paper_r>**
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/farhadteh/paper_r.git
+cd paper_r
+```
+
+### Setup on New Computer
+
+Follow the installation steps below, then:
+
+```bash
+# 1. Install dependencies
+make install
+
+# 2. Build the manuscript
+make build
+
+# 3. View the PDF
+open manuscript/main.pdf
+```
+
+### Making Changes and Syncing
+
+**After editing on any computer:**
+
+```bash
+# Build to verify your changes
+make build
+
+# Stage your changes
+git add manuscript/sections/01_introduction.tex
+# Or stage all changes: git add .
+
+# Commit with a descriptive message
+git commit -m "Updated introduction section"
+
+# Push to GitHub
+git push
+```
+
+**Before starting work (pull latest changes):**
+
+```bash
+git pull
+```
+
+This ensures you always have the latest version from any computer.
+
+---
+
 ## Installation
 
 ### 1. LaTeX Distribution
