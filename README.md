@@ -127,6 +127,54 @@ install.packages(c("tidyverse", "knitr", "xtable"))
 
 ---
 
+## ✅ Complete Dependency Checklist
+
+Before you can build the manuscript, ensure you have:
+
+### Required
+
+- ✅ **LaTeX**: BasicTeX or MacTeX installed
+  - `pdflatex` command available in PATH
+  - `bibtex` command available
+  - IEEEtran package installed (`sudo tlmgr install ieeetran`)
+- ✅ **Python 3.10+**: For scripts and automation
+- ✅ **Python packages**: Installed via `make install`
+  - pypdf (PDF processing)
+  - pdfplumber (PDF text extraction)
+  - bibtexparser (BibTeX parsing)
+  - pandas (data processing)
+  - requests (HTTP requests)
+  - python-dotenv (environment variables)
+
+### Optional
+
+- 🔧 **R**: For statistical analysis (`brew install r`)
+  - tidyverse, knitr, xtable packages
+- 🔧 **anthropic**: For experimental API script (not needed for regular use)
+  - Uncomment in requirements.txt if needed
+- 🔧 **Git**: For version control (should already be installed on macOS)
+- 🔧 **GitHub CLI** (`gh`): For easier repository management
+
+### Verify Installation
+
+```bash
+# Check LaTeX
+pdflatex --version
+bibtex --version
+
+# Check Python
+python3 --version
+.venv/bin/python --version
+
+# Check packages
+.venv/bin/pip list
+
+# Test build
+make build
+```
+
+---
+
 ## Project Structure
 
 ```

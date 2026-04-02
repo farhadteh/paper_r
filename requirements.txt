@@ -9,3 +9,7 @@ pandas>=2.2.0
 # Utilities
 python-dotenv>=1.0.0
 requests>=2.31.0
+
+# Optional: API Integration (only needed for generate_with_api.py)
+# Uncomment if you want to use the experimental API script:
+# anthropic>=0.40.0
