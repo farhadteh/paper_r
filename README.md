@@ -436,3 +436,13 @@ When writing:
 ## License
 
 Academic use only. Check with paper authors for redistribution rights.
+
+---
+
+## 🤖 AI Research Skills Integration
+
+This project now integrates the [Academic Research Skills](https://github.com/Imbad0202/academic-research-skills) toolkit for Claude Code to power an AI-assisted research and writing workflow.
+
+### What's included:
+- **Claude Code Tools:** The `.claude/skills/` directory contains tools like `/ars-plan`, `/ars-lit-review`, `/ars-outline`, and `/ars-revision-coach` which run specialized agents to help with literature review, systematic reviews, writing, and peer review. (Requires the Claude Code CLI tool to use).
+- **Upgraded Style Checks:** The `scripts/check_style.py` script has been updated with the toolkit's writing constraints. It now limits em-dashes and semicolons, prevents throat-clearing openers, and warns against generic AI phrasing like "delve", "tapestry", and "landscape" to ensure crisp academic writing.
